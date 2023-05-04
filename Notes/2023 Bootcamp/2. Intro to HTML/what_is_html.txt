@@ -1,0 +1,14 @@
+Topic:
+What is HTML?
+
+Keywords:
+HTML
+
+Notes:
+HTML stands for HypterText Markup Language.
+HyperText is the link(s) part.
+MarkUp is the HTML tag(s).
+
+Summary:
+HyperText is the foundation of the Internet. By using HTML we are able to communicate with the browser the
+content of the given webpage.

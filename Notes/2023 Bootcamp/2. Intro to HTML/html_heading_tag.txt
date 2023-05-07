@@ -5,6 +5,6 @@ Keywords:
 HTML, HEADING
 
 Notes:
-
+    Headings only go up to a number of H6, there is no H7.
 
 Summary:

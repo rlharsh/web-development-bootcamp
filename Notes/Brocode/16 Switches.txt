@@ -1,0 +1,35 @@
+Topic:
+    Switches
+
+Keywords:
+    switch
+
+Notes:
+    Switches should always be followd by break after a matching operator has been located.
+    You should always make use of default as a fallthrough.
+
+    Switches can be used on strings (see below).
+        let grade = "A";
+        switch (grade) {
+            case "A":
+                console.log("You did great!");
+                break;
+            default:
+                console.log(grade, "is not an accepted grade.");
+                break;
+        }
+
+    Switches can be used in conjunction with compare statements (see below).
+        let grade = 95;
+        switch (true) {
+            case grade >= 90:
+                console.log("You did great!");
+                break;
+            default:
+                console.log(grade, "is not an accepted grade.");
+                break;
+        }
+
+Summary:
+    A switch is a statement that examines a valuue for a match against many case clauses. 
+    A switch is much more effecient than "else if" statements.

@@ -1,0 +1,33 @@
+Topic:
+    AND OR Operators
+
+Keywords:
+    AND, OR, && ||
+
+Notes:
+    Very useful for finding out if a value falls between a certain range!
+
+    The AND && operator lets us evaluate more than one condition in order to ensure both conditions are met prior to execution
+    of code (see below).
+        let temp = 50;
+        if (temp > 0 && temp < 30) {
+            console.log('The weather is good!');
+        } else {
+            console.log('The weather is bad!');
+        }
+    In the above example, both conditions must be true before the script executes the call to console.log to inform the user
+    that the weather is good!
+
+    The OR || operator lets us evaluate more than than one condition in order to ensure on or the other conditions are met prior
+    to execution of code (see below).
+        let temp = 20;
+        if (temp <= 0 || temp >= 30) {
+            console.log("The weather is bad!");
+        } else {
+            console.log("The weather is good!");
+        }
+
+
+Summary:
+    Gives us thew ability to check more than one condition concurrently && AND (BOTH conditions must be true)
+    || OR (Either condition can be true).

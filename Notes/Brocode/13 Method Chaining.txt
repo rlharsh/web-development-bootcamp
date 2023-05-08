@@ -1,0 +1,17 @@
+Topic:
+    Method Chaining
+
+Keywords:
+
+
+Notes:
+    Method chaining makes it easier to combine methods to help to reduce the total number lines of
+    code. For instance the below method converts the first character in a variable to uppercase and
+    appends the remaining text.
+
+    let userName = "ronald";
+    userName = userName.charAt(0).toUpperCase().trim() + userName.slice(1).trim();
+
+
+Summary:
+    Calling one method after another in one continuous line of code.

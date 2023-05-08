@@ -1,0 +1,12 @@
+Topic:
+    Checked Property
+
+Keywords:
+    checked
+
+Notes:
+    You can check the value of the status by using the following property:
+        .checked
+
+Summary:
+    Allows us to check if a radio button is checked, or if a checkbox is checked.

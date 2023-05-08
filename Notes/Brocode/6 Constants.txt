@@ -1,0 +1,21 @@
+Topic:
+Constants
+
+Keywords:
+const
+
+Notes:
+    Constants are variables that cannot be changed, and remain persistant (see below example.)
+
+    const PI = 3.14;    // The value of the const PI cannot be changed.
+
+    A common naming convention for a const is to make all of the letters uppercase (as seen below.)
+        const PRICE_POINT = 2.98;
+        const TAX_RATE = .0756;
+
+Summary:
+    You will want to make use of constants as much as possible for data that you know will not change,
+    such as the price of an item, mathmatic formulas, names, etc.
+
+    A constant cannot be changed, and an error will result when attempting to change the value of a 
+    constant.

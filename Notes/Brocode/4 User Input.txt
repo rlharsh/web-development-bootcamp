@@ -1,0 +1,25 @@
+Topic:
+User Input
+
+Keywords:
+Input
+
+Notes:
+The "easiest" method to obtain information is via a prompt, which can be used as:
+
+let username = window.prompt("What's your name?");
+console.log(username);
+
+However, the most practical method of obtaining information will typically be in the
+form of an interactive element on a page which can be used as follows:
+
+let username;
+
+document.getElementById("myButton").onClick = function() {
+    username = document.getElementById("myText").value;
+    console.log(username);
+}
+
+Summary:
+There are several ways to get a users input; you can access this information via
+a prompt or by using a textbox in conjunction with a submit button.

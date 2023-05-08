@@ -1,0 +1,33 @@
+Topic:
+Type Conversion
+
+Keywords:
+Datatype, Change Data, Strings, Numbers, Booleans
+
+Notes:
+To convert a string to an integer you can use the Number constructor (as seen below):
+
+    let age = window.prompt("How old are you?"); // Returns a string with the users input
+    age = Number(age); // Convert the string into an integer
+    age += 1; // Add one to the given input
+
+    console.log("Happy Birthday! You are", age, "years old"); // Print the new age to the console.
+
+To obtain the datatype of a variable we can use the typeof keyword (as seen below):
+
+    console.log(typeof age);
+    
+Below are the keywords that can be used to convert data into different types:
+
+    Number(input)
+        If you attempt to convert something that is not a number such as Number("pizza")
+        then it will return NaN which stands for Not a Number.
+    String(input)
+    Boolean(input)
+        Note: with no context passed (ie, "") the boolean will be set to false.
+        However, if you type anything within Boolean, such as Boolean("pizza")
+        then it will return true.
+
+Summary:
+By using data type conversions we can easily convert user input into either Numbers,
+Strings or Boolean values so that they can be used within our code.

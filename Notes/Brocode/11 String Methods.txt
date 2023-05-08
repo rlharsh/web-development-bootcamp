@@ -1,0 +1,42 @@
+Topic:
+    String Methods
+
+Keywords:
+    length, charAt, indexOf, lastIndexOf, toUpperCase, toLowerCase, replaceAll
+
+Notes:
+    The length property will give us the length of a string (see below):
+        let x = "ronald harsh";
+        x.length; // Will return 12 as there is a total of 12 characters in this string.
+
+    To get a specific character of a string we can use the charAt function and pass in the index (see below):
+        let x = "ronald harsh";
+        console.log(x.charAt(1)); // Would return "o" as it is the character at the first index (starts at 0).
+
+    To find the first index where a character exist we can use the indexOf method and pass in a character (see below):
+        let x = "ronald harsh";
+        x.indexOf("o"); // Will return 1 as this is where the first "o" character is present.
+
+    To find the last index of a given character we can use the lastIndexOf function and pass in a character (see below):
+        let x = "ronald harsh";
+        x.lastIndexOf("a"); // Will return 8 as this is where the last index of the character "a" is located.
+
+    To remove empty spaces before and after a string we can use the trim method to accomplish this (see below):
+        let x = "    ronald harsh    ";
+        x = x.trim(); // Will return "ronald harsh" as the empty (blank) spaces have been trimmed from the variable.
+
+    To convert a string to upper-case we can use the toUpperCase function (see below):
+        let x = "ronald harsh";
+        x = x.toUpperCase(); // Will return "RONALD HARSH".
+
+    To convert a string to lower-case we can use the toLowerCase function (see below):
+        let x = "Ronald Harsh";
+        x = x.toLowerCase(); // Will return "ronald harsh".
+
+    To replace all given characters within a string we can make use of the replaceAll function which accepts two arguments;
+    the first being the character to replace and the second being the character to replace it with (see below).
+        let x = "123-456-7890";
+        x = x.replaceAll("-", "/"); // Will return "123/456/7890".
+
+Summary:
+    By using the built in-methods we can easily manipulate string variables, locate characters & more.

@@ -1,0 +1,22 @@
+Topic:
+    String Slicing
+
+Keywords:
+    slice
+
+Notes:
+    Using the slice we can get the characters to a point, it accepts two values, the starting point and the ending point (see below).
+        let fullName = "Ronald Harsh";
+        let lastName = fullName.slice(7);   // Will return "Harsh", a second argument was not passed
+                                            // so it will return the remainder of a string.
+
+    We can combine functions to get the index to be used, so let us for a moment say we wanted to assume the last name was everything
+    after the first blank character (see below):
+        let fullName = "Ronald Harsh";
+        let lastName = fullName.slice(fullName.indexOf(" ")).trim(); // Will return "Harsh". Ensure to trim the blank space out.
+
+        let fullName = "Ronald Harsh";
+        let firstName = fullName.slice(0, fullName.indexOf(" ")).trim() // Will return "Ronald". Ensure to trim the blank space out.
+
+Summary:
+    slice() extracts a section of a string and returns it as a new string, without modifying the original string.

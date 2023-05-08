@@ -1,0 +1,23 @@
+Topic:
+    Random Number
+
+Keywords:
+    random      
+
+Notes:
+    The Math.random() function will generate a random number between 0 and 1 (using decimals, see below):
+        let x = Math.random(); // Can generate a random nuimber between 0 and 1 (ie, 0.4477719)
+
+    To generate a random number between two values we can call the random function like:
+        let x = Math.random() * 6; // Will return a random decimal number between 0 and 5.
+
+    To truncate the decimal places we can use Math.floor() to round down like this:
+        let x = Math.floor(Math.random() * 6); // Will return a whole number between 0 and 5.
+
+    To add an offset so that we can get 1-6 we can modify the code as such:
+        let x = Math.floor(Math.random() * 6) + 1;
+
+Summary:
+    The Math.random function allows us to generate random numbers, and by using offsets we can
+    further expand them to start off at a given number whereas the number * of that would be our 
+    maximum.

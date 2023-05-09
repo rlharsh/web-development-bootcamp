@@ -1,0 +1,27 @@
+Topic:
+    Break & Continue Statements
+
+Keywords:
+    break, continue
+
+Notes:
+    Whenever you use the break statement it will break out of the entire loop (see below).
+
+    // This code will break out of the loop when i = 5
+    for (let i = 1; i <= 10; i++) {
+        if (i === 5) break;
+        console.log(i);
+    }
+
+    Whenever you use the continue statement it will break out of the current iteration of the loop (see below).
+
+    // This code will break out of the current iteration of the loop when i = 5
+    for (let i = 1; i <= 10; i++) {
+        if (i === 5) continue;
+        console.log(i);
+    }
+
+
+Summary:
+    A break statement terminates the loop immediately, the control flow continues with the next statement after the loop.
+    A continue statement terminates the current iteration of the loop, the control flow continues with the next iteration of the loop.

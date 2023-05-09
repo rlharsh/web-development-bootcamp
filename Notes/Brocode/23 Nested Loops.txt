@@ -1,0 +1,30 @@
+Topic:
+    Nested Loops
+
+Keywords:
+    for
+
+Notes:
+    Nested loops are loops within loops. They are useful for iterating over data.
+    Nested loops are situations where you have a loop inside another loop.
+
+    The example below shows how to draw a grid to the DOM using nested loops.
+
+    let symbol = window.prompt("Enter a symbol to use");
+    let rows = window.prompt("Enter the number of rows");
+    let cols = window.prompt("Enter the number of cols");
+
+    for (let i = 1; i <= rows; i += 1) {
+        for (let j = 1; j <= cols; j += 1) {
+            document.getElementById("myGrid").innerHTML += symbol;
+        }
+        document.getElementById("myGrid").innerHTML += "<br>";
+    }
+
+    The above code will ask the user for a symbol, the number of rows, and the
+    number of cols. It will then draw a grid to the DOM using the symbol that was
+    provided by the user.
+
+Summary:
+    Nested loops are loops within loops. They are useful for iterating over
+    data structures that are nested, such as lists of lists.

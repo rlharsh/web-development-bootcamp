@@ -1,0 +1,29 @@
+Topic:
+    Functions
+
+Keywords:
+    function
+
+Notes:
+    Functions are an essential component of JavaScript, as they allow us to write reusable code.
+    Arguments can be passed to a function to be used within the function.
+
+    startProgram();
+
+    function startProgram() {
+        let userName = "Ronald";
+        printUserName(userName);
+    }
+
+    function printUserName(userName) {
+        console.log(userName);
+    }
+
+    Whenever the above code is run, the function startProgram() is called, once it is called
+    the userName variable is set to "Ronald", and then the printUserName() function is called,
+    and the printUserName function will print the passed argument to the console.
+
+
+Summary:
+    A function is code that can be defined once, and used many times.
+    To perform some code, you simple need only call the function name.

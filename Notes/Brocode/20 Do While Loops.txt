@@ -1,0 +1,23 @@
+Topic:
+    Do While Loops
+
+Keywords:
+    do while
+
+Notes:
+    A do while loop allows us to execute code prior to checking on the condition.
+    Once the code has been ran from within the block the condition is then checked, 
+    and if the condition has been met, then the do while loop will exit, otherwise it
+    will repeat the code within the block again (see below).
+
+    A do while loop is a variation of the the while loop.
+
+    let userName;
+    do {
+        userName = window.prompt("Enter your name");
+    } while(userName == "")
+    console.log("Hello", userName);
+
+
+Summary:
+    Do something, check a condition, repeat if that condition is true.

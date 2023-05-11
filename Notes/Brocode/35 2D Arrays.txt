@@ -1,0 +1,34 @@
+Topic:
+    2D Arrays
+
+Keywords:
+    [][]
+
+Notes:
+    2D arrays are arrays of arrays. They are useful for storing data in a grid format.
+    
+    A 2D array is declared like this:
+        int[][] array = new int[3][4];
+    This creates a 2D array with 3 rows and 4 columns.
+
+    This is a working example of a 2D array (see Example 1).
+
+    Example 1:
+        let publisher = [
+            ["Marvel", "DC"],
+            ["Dark Horse", "Image"],
+            ["IDW", "Boom!"]
+        ];
+        let prices = [
+            [3.99, 2.99],
+            [2.99, 2.99],
+            [3.99, 3.99]
+        ];
+
+        let comicList = [publisher, prices];
+
+        console.log(comicList[0][0][0]); // Marvel
+
+
+Summary:
+    A 2D array is an array of arrays, otherwise known as a matrix, or a multidimensional array.

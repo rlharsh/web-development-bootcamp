@@ -1,0 +1,39 @@
+Topic:
+    Format Currrency
+
+Keywords:
+    toLocaleString
+
+Notes:
+    toLocaleString has two parameters, the first is the locale, the second is an object with options.
+    If you pass in an empty object, it will use the default options.
+    The first argument is the locale, which is a string that specifies the language and country.
+    The second argument is an object that specifies the formatting options.
+
+    To generate a locale string for currency, you pass in the locale and the currency code (see below).
+
+        let myNum = 123456.789;
+        myNum = myNum.toLocaleString('en-US', {style: 'currency', currency: 'USD'});
+        console.log(myNum); // $123,456.79
+    
+    The above example uses the US locale and the USD currency code.
+
+    To generate a locale string for a percentage, you pass in the locale and the percentage code (see below).
+
+        let myNum = 0.123456789;
+        myNum = myNum.toLocaleString('en-US', {style: 'percent'});
+        console.log(myNum); // 12.345.679%
+
+    The above example uses the US locale and the percentage code.
+    Acceptable input is a number between 0 and 1.
+
+    To generate a local string for celcius, you pass in the locale and the celcius code (see below).
+
+        let myNum = 37;
+        myNum = myNum.toLocaleString('en-US', {style: 'unit', unit: 'celsius'});
+        console.log(myNum); // 37°C
+
+    The above example uses the US locale and the celcius code.
+
+Summary:
+    Using toLocaleString, you can format numbers as currency, percentages, and units.

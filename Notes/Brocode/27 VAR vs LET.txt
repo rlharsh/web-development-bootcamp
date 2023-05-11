@@ -1,0 +1,19 @@
+Topic:
+    VAR vs. LET
+
+Keywords:
+    var, let
+
+Notes:
+    - variable scope = where a variable is available/accessible in your code
+    - var is function scoped () {}
+    - let is block scoped {}
+
+    - global variable = variable declared outside of a function
+    - (if global, var will CHANGE browser's window properties)
+    - You should never declare a global variable with var
+
+Summary:
+    - use let by default
+    - var if you need to reassign
+    - var if you need to redeclare

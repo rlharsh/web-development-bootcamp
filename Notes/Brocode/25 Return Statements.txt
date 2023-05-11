@@ -2,7 +2,26 @@ Topic:
     Return Statements
 
 Keywords:
+    function, return value, return statement
 
 Notes:
+    Return statements are used to return a value back to the place where the function was called.
+    You can return any piece of data from a function, including strings, numbers, booleans, arrays, and objects.
+
+    // Example:
+    let area;
+    let width;
+    let height;
+
+    width = window.prompt("Enter the width of the rectangle:");
+    height = window.prompt("Enter the height of the rectangle:");
+    area = calculateArea(width, height);
+
+    function calculateArea(width, height) {
+        return width * height;
+    }
+
+    window.alert("The area of the rectangle is " + area);
 
 Summary:
+    Returns a value back to the place where the function was called.

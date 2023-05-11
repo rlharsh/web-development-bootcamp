@@ -1,0 +1,26 @@
+Topic:
+    Template Literals
+
+Keywords:
+    template literals, string interpolation, string literals, template strings
+
+
+Notes:
+    Template literals are delimited with (`) instead of double or single quotes
+    allows embedded variables and expressions.
+
+    Template literals can be multi-line
+
+    Template literals can be tagged
+
+    Template literals can be used as function arguments
+
+    // Example 1
+        let name = 'Ronald';
+        let age = 42;
+
+        console.log(`Hello, my name is ${name} and I am ${age} years old.`);
+
+Summary:
+    Template literals are delimited with (`) instead of double or single quotes
+    allows embedded variables and expressions.

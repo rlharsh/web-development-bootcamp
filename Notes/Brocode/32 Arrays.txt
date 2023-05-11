@@ -1,0 +1,66 @@
+Topic:
+    Arrays
+
+Keywords:
+
+
+Notes:
+    Each value in an array is called an element.
+    To add an element to an array we use the push() metho (see example 1).
+
+    Example 1:
+        var myArray = [];
+        myArray.push("first element");
+        myArray.push("second element");
+        myArrapy.push("third element");
+
+    To remove an element from the end of an array we use the pop() method (see example 2).
+    
+    Example 2:
+        var myarray = ["first element", "second element", "third element"];
+        myArray.pop();
+        console.log(myArray); // ["first element", "second element"]
+
+        In this example the third element is removed from the array.
+
+    To add an element to the beginning of an array we use the unshift() method (see example 3).
+    
+    Example 3:
+        var myArray = ["first element", "second element", "third element"];
+        myArray.unshift("fourth element");
+        console.log(myArray); // ["fourth element", "first element", "second element", "third element"]
+
+        In this example the fourth element is added to the beginning of the array.
+
+    To remove an element from the beginning of an array we use the shift() method (see example 4).
+
+    Example 4:
+        var myArray = ["first element", "second element", "third element"];
+        myArray.shift();
+        console.log(myArray); // ["second element", "third element"]
+
+        In this example the first element is removed from the array.
+
+    To get the length of an array we use the length property (see example 5).
+
+    Example 5:
+        var myArray = ["first element", "second element", "third element"];
+        console.log(myArray.length); // 3
+
+    To locate an element in an array we use the indexOf() method (see example 6).
+
+    Example 6:
+        var myArray = ["first element", "second element", "third element"];
+        let index = myArray.indexOf("second element");
+        console.log(index); // 1
+
+    To locate the last element in an arrray we use the lastIndexOf() method (see example 7).
+
+    Example 7:
+        var myArray = ["first element", "second element", "third element"];
+        let index = myArray.lastIndexOf("second element");
+        console.log(index); // 1
+
+
+Summary:
+    A variable that can store multiple values.

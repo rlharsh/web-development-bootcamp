@@ -1,0 +1,39 @@
+Topic:
+    Array Loops
+
+Keywords:
+
+
+Notes:
+    -   Array loops are a way to iterate through an array
+    -   There are two types of array loops
+        -   for loop
+        -   for each loop
+
+    The below example shows how to loop through an array using the for loop (see Example 1).
+
+    Example 1:
+        let prices = [5, 10, 15, 20];
+        for (let i = 0; i < prices.length; i++) {
+            console.log(prices[i]);
+        }
+
+    Sometimes you might need to iterate an array in reverse (see Example 2).
+
+    Example 2:
+        let prices = [5, 10, 15, 20];
+        for (let i = prices.length - 1; i >= 0 - 1; i--) {
+            console.log(prices[i]);
+        }
+
+    We can also use a standard for loop to iterate through an array of objects (see Example 3).
+
+    Example 3:
+        let prices = [5, 10, 15, 20];
+        for (let price of prices) {
+            console.log(price);
+        }
+
+Summary:
+    Looping through an array is a common task in JavaScript. There are two types of array loops, the for loop and the for each loop. The for loop is used to iterate
+    through an array of values. The for each loop is used to iterate through an array of objects.

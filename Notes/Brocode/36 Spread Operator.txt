@@ -1,0 +1,31 @@
+Topic:
+    Spread Operator
+
+Keywords:
+    ...
+
+Notes:
+    A basic working example of an array spread operator can be found below (see Example 1).
+
+    Example 1:
+        let numbers = [1, 2, 3, 4, 5];
+        let maximum = Math.max(...numbers);
+        console.log(maximum); // 5
+
+    Another example can be found below (see Example 2).
+
+    Example 2:
+        let class1 = ['Bob', 'John', 'Ethan'];
+        let class2 = ['Amanda', 'Mary', 'Sally'];
+
+        class1.push(...class2);
+        console.log(...class1); // Bob John Ethan Amanda Mary Sally
+
+
+Summary:
+    A spread operator allows an iterable such as an array or string to be expanded in places where
+    zero or more arguments (for function calls) or elements (for array literals) are expected, or an
+    object expression to be expanded in places where zero or more key-value pairs (for object
+    literals) are expected.
+
+    It "unpacks" an iterable such as a string or array into its individual values.

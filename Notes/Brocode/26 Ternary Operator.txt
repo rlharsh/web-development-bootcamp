@@ -1,0 +1,34 @@
+Topic:
+    Ternary Operator
+
+Keywords:
+
+
+Notes:
+    Ternary operators allow us to quickly return values without the 
+    need for if-else blocks or even switch statements.
+
+    // Example 1
+    let age = 18;
+    checkAge(age) ? console.log("You are an adult") : console.log("You are a minor");
+
+    function checkAge(age) {
+        return (age > 18) ? true : false;
+    }
+
+    // Example 2
+    checkWinner(false);
+
+    function checkWinner(win) {
+        return (win) ? console.log("You win!") : console.log("You Lose!");
+    }
+
+Summary:
+    -   Ternary operator is a short hand for if-else statement
+    -   Syntax:
+            condition ? expression1 : expression2
+    -   If condition is true, expression1 is executed
+    -   If condition is false, expression2 is executed
+    -   Expression1 and expression2 must be of same type
+    -   Ternary operator can be nested
+*/

@@ -1,0 +1,24 @@
+Topic:
+    Sorting an array of strings.
+
+Keywords:
+    sort, reverse
+
+Notes:
+    To sort an array of strings in alphabetical order, we can use the sort() metod (see Example 1).
+
+    Example 1:
+        let fruits = ["banana', "apple", "orange", "watermelon"];
+        fruits = fruits.sort();
+        console.log(fruits); // ["apple", "banana", "orange", "watermelon"]
+
+    To sort an array of strings in reverse-alphabetical order, we can use the reverse() method (see Example 2).
+
+    Example 2:
+        let fruits = ["banana', "apple", "orange", "watermelon"];
+        fruits = fruits.sort().reverse();
+        console.log(fruits); // ["watermelon", "orange", "banana", "apple"]
+
+Summary:
+    Sorting an array of strings is easy with the sort() method. To sort an array of strings in reverse-alphabetical order, we can use the reverse() method.
+    We may need to sort an array of strings in reverse-alphabetical order if we want to display a list of items in descending order.
